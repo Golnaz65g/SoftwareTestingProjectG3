@@ -7,8 +7,13 @@ import org.junit.Test;
 public class LockUnlockTest {
 
 	@Test
-	public void test() {
-		fail("Not yet implemented");
+	public void lockunlockTest() {
+		LockUnlock junit= new LockUnlock();
+		junit.SetId(10);
+		junit.SetSecret(5);
+		junit.SetName ("Secret Key is:");
+		
+		assertEquals (junit.CalculateKey(),50);
 	}
 
 }

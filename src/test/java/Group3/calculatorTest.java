@@ -7,8 +7,10 @@ import org.junit.Test;
 public class calculatorTest {
 
 	@Test
-	public void test() {
-		fail("Not yet implemented");
+	public void addTest() {
+		calculator junit= new calculator();
+		int result= junit.add(200, 100);
+		assertEquals (300,result);
 	}
 
 }

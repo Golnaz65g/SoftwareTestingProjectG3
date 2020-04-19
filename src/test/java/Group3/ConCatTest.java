@@ -7,8 +7,10 @@ import org.junit.Test;
 public class ConCatTest {
 
 	@Test
-	public void test() {
-		fail("Not yet implemented");
+	public void ConCatingTest() {
+		ConCat junit= new ConCat();
+		String result= junit.ConCating("Hello", "World");
+		assertEquals ("HelloWorld", result);		
 	}
 
 }
